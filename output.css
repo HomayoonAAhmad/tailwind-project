@@ -554,37 +554,17 @@ video {
   display: none;
 }
 
-.fixed {
-  position: fixed;
+.-m-\[149px\] {
+  margin: -149px;
 }
 
-.absolute {
-  position: absolute;
+.-m-\[23px\] {
+  margin: -23px;
 }
 
-.relative {
-  position: relative;
-}
-
-.inset-0 {
-  inset: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mr-2 {
@@ -607,44 +587,44 @@ video {
   height: 42px;
 }
 
-.h-\[46px\] {
-  height: 46px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[calc\(100vh-176px\)\] {
-  height: calc(100vh - 176px);
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-10 {
   height: 2.5rem;
 }
 
-.w-\[42px\] {
-  width: 42px;
+.h-\[28px\] {
+  height: 28px;
 }
 
-.w-full {
-  width: 100%;
+.h-\[49px\] {
+  height: 49px;
+}
+
+.w-\[42px\] {
+  width: 42px;
 }
 
 .w-10 {
   width: 2.5rem;
 }
 
-.max-w-\[1200px\] {
-  max-width: 1200px;
+.w-\[132px\] {
+  width: 132px;
+}
+
+.w-\[49px\] {
+  width: 49px;
+}
+
+.max-w-\[1200\] {
+  max-width: 1200;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-row-reverse {
@@ -669,10 +649,10 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+.space-x-2\.5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(0.625rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.625rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-3\.5 > :not([hidden]) ~ :not([hidden]) {
@@ -681,30 +661,8 @@ video {
   margin-left: calc(0.875rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-2\.5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.625rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.625rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
-}
-
-.self-center {
-  align-self: center;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-.rounded-\[20px\] {
-  border-radius: 20px;
 }
 
 .rounded-full {
@@ -724,6 +682,11 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -734,32 +697,9 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-30 {
-  --tw-bg-opacity: 0.3;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-right {
@@ -775,21 +715,12 @@ video {
   line-height: 2rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-custom-lg {
   font-size: 16px;
 }
 
 .text-custom-sm {
   font-size: 10px;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .text-gray-400 {
@@ -800,11 +731,6 @@ video {
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -838,17 +764,23 @@ video {
     order: 3;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:h-\[600px\] {
-    height: 600px;
+  .md\:h-\[43px\] {
+    height: 43px;
+  }
+
+  .md\:h-\[75px\] {
+    height: 75px;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .md\:w-\[75px\] {
+    width: 75px;
   }
 }
