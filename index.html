@@ -4,9 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Setup</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
     <link href="output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline bg-black">Hello, world!</h1>
+    <!-- Header Section -->
+    <header class="bg-slate-800 h-44 flex justify-between items-center px-10">
+      <!-- Social Icons -->
+      <ul class="flex space-x-2.5">
+        <!-- Instagram Icon with Hover Effect -->
+        <li>
+          <a href="#instagram" class="group">
+            <div
+              class="flex items-center justify-center w-[42px] h-[42px] rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <i
+                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
+              ></i>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#instagram" class="group">
+            <div
+              class="flex items-center justify-center w-[42px] h-[42px] rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <i
+                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
+              ></i>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#instagram" class="group">
+            <div
+              class="flex items-center justify-center w-[42px] h-[42px] rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <i
+                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
+              ></i>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- Logo and Title Wrapper -->
+      <div class="flex items-center space-x-3.5 md:order-2">
+        <!-- Title Text -->
+        <img src="images/png/logo.png" alt="main-logo" />
+        <!-- Logo Image -->
+        <img src="images/png/logo-banoo 1.png" alt="banoo-logo" />
+      </div>
+      <!-- contact info -->
+      <div
+        class="hidden md:flex flex-row-reverse items-center space-x-reverse space-x-2 md:order-3"
+      >
+        <!-- Phone Icon -->
+        <div class="hidden md:flex items-center">
+          <!-- Contact Information -->
+          <div class="text-right mr-2">
+            <!-- Add margin-left for spacing -->
+            <p class="text-slate-300 font-vazirmatn text-custom-lg">
+              09123456789
+            </p>
+            <p class="text-slate-300 font-vazirmatn text-custom-sm">
+              هفت روز هفته از 9 تا 21
+            </p>
+          </div>
+          <!-- Icon -->
+          <div
+            class="w-[42px] h-[42px] rounded-full border-2 border-gray-400 flex justify-center items-center"
+          >
+            <!-- You can add an icon here if needed -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar section -->
   </body>
 </html>
