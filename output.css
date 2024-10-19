@@ -612,6 +612,10 @@ video {
   display: flex;
 }
 
+.contents {
+  display: contents;
+}
+
 .hidden {
   display: none;
 }
