@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .z-\[-1\] {
   z-index: -1;
 }
@@ -575,33 +579,22 @@ video {
   margin-right: 2.5rem;
 }
 
-.my-\[9px\] {
-  margin-top: 9px;
-  margin-bottom: 9px;
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.my-\[17xp\] {
-  margin-top: 17xp;
-  margin-bottom: 17xp;
+.my-\[9px\] {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .-mt-\[176px\] {
   margin-top: -176px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mr-2 {
@@ -620,10 +613,6 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-44 {
   height: 11rem;
 }
@@ -640,24 +629,16 @@ video {
   height: 42px;
 }
 
+.h-\[46px\] {
+  height: 46px;
+}
+
 .h-\[49px\] {
   height: 49px;
 }
 
 .h-\[600px\] {
   height: 600px;
-}
-
-.h-11 {
-  height: 2.75rem;
-}
-
-.h-\[46px\] {
-  height: 46px;
-}
-
-.h-\[46\] {
-  height: 46;
 }
 
 .w-7 {
@@ -680,22 +661,6 @@ video {
   width: 100%;
 }
 
-.w-\[1200px\] {
-  width: 1200px;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.max-w-\[1200\] {
-  max-width: 1200;
-}
-
-.max-w-\[1200px\] {
-  max-width: 1200px;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -716,6 +681,12 @@ video {
   justify-content: space-between;
 }
 
+.space-x-1\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.375rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.375rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -734,30 +705,8 @@ video {
   margin-left: calc(0.875rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-1\.5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.375rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.375rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 
 .overflow-hidden {
@@ -768,20 +717,12 @@ video {
   border-radius: 20px;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-10 {
-  border-radius: 10px;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
 
-.rounded-\[20px\] {
-  border-radius: 20px;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
@@ -823,14 +764,8 @@ video {
   padding-right: 2.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.py-\[9px\] {
-  padding-top: 9px;
-  padding-bottom: 9px;
+.text-center {
+  text-align: center;
 }
 
 .text-right {
@@ -846,6 +781,15 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-custom-lg {
   font-size: 16px;
 }
@@ -854,12 +798,8 @@ video {
   font-size: 10px;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.font-extrabold {
-  font-weight: 800;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -879,6 +819,11 @@ video {
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -921,11 +866,6 @@ video {
     order: 3;
   }
 
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -944,19 +884,5 @@ video {
 
   .md\:w-\[75px\] {
     width: 75px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
