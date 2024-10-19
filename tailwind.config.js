@@ -11,6 +11,7 @@ module.exports = {
       },
       borderRadius: {
         20: "20px", // Custom border-radius of 20px
+        10: "10px",
       },
     },
   },
