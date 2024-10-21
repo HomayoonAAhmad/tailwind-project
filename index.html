@@ -90,9 +90,9 @@
     </header>
 
     <!-- navbar section -->
-    <nav dir="rtl">
+    <nav dir="rtl" class="relative z-10">
       <div
-        class="flex flex-row max-w-[1200px] h-[46px] bg-slate-100 mx-10 xl:mx-auto rounded-20 -m-[23px]"
+        class="flex flex-row max-w-[1200px] h-[46px] bg-slate-100 mx-10 xl:mx-auto rounded-20 -m-[23px] overflow-x-auto md:overflow-visible whitespace-nowrap"
       >
         <ul class="contents">
           <!-- here -->
@@ -167,22 +167,24 @@
 
     <!-- Wheat image -->
     <div class="overflow-hidden">
-      <div class="relative z-[-1] -mt-[176px]">
-        <img
-          src="images/png/gandom-pic.png"
-          class="w-full h-[600px] object-cover"
-        />
+      <div class="relative">
+        <div class="">
+          <img
+            src="images/png/gandom-pic.png"
+            class="w-full h-[600px] object-cover"
+          />
+        </div>
         <div
-          class="absolute inset-0 flex flex-col items-end justify-center md:mx-44 mt-[230px]"
+          class="absolute inset-0 flex flex-col items-center md:items-end justify-center md:px-44"
         >
-          <h1
-            class="text-slate-600 text-6xl font-nastaliq text-right mb-2 md:text-center"
-          >
-            در سخت ترین لحظات
-          </h1>
-          <h2 class="text-slate-800 text-3xl font-nastaliq text-right">
-            در کنارتان هستیم
-          </h2>
+          <div dir="rtl">
+            <h1 class="text-slate-600 text-6xl font-nastaliq mb-2">
+              در سخت ترین لحظات
+            </h1>
+            <h2 class="text-slate-800 text-3xl font-nastaliq">
+              در کنارتان هستیم
+            </h2>
+          </div>
         </div>
       </div>
     </div>
@@ -316,7 +318,7 @@
           </p>
         </div>
         <button
-          class="bg-primary-color text-slate-800 font-vazirmatn px-4 py-2 rounded-full hover:bg-primary-color/80 transition"
+          class="w-40 h-10 bg-primary-color text-slate-800 font-semibold font-vazirmatn px-4 py-2 rounded-[22px] hover:bg-primary-color/80 transition"
         >
           مشاهده
         </button>
