@@ -9,6 +9,12 @@
 }
 
 @font-face {
-  font-family: "Yekan";
+  font-family: "YekanBakh";
   src: url("./fonts/YekanBakh/YekanBakh-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./fonts/vazirmatn/Vazirmatn-VariableFont_wght.ttf")
+    format("truetype");
 }

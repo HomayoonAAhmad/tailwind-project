@@ -1,22 +1,28 @@
 module.exports = {
-  content: ["./*.html"], // Scan HTML files for classes
+  content: ["./*.html"],
   theme: {
     extend: {
       fontFamily: {
         vazirmatn: ["Vazirmatn", "sans-serif"],
-        nastaliq: ["IranNastaliq", "sans-serif"], // Fallback to sans-serif
-        yekan: ["Yekan", "sans-serif"], // Fallback to sans-serif
+        nastaliq: ["IranNastaliq", "sans-serif"],
+        yekan: ["YekanBakh", "sans-serif"],
       },
       fontSize: {
         "custom-lg": "16px",
         "custom-sm": "10px",
       },
       borderRadius: {
-        20: "20px", // Custom border-radius of 20px
+        20: "20px",
         10: "10px",
+        15: "15px",
       },
-      textShadow: {
-        nastaliq: "0 4px 4px rgba(0, 0, 0, 0.25)",
+      boxShadow: {
+        "inner-shadow": "inset 0 4px 6px rgba(0, 0, 0, 0.1)",
+      },
+      colors: {
+        "primary-color": "#D1AD76",
+        "gradient-light": "#485A75",
+        "gradient-dark": "#293A51",
       },
     },
   },
