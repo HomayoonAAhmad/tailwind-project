@@ -566,48 +566,8 @@ video {
   inset: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-\[-1\] {
   z-index: -1;
-}
-
-.z-\[-2\] {
-  z-index: -2;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-\[10px\] {
-  z-index: 10px;
-}
-
-.z-\[0\] {
-  z-index: 0;
-}
-
-.z-\[1px\] {
-  z-index: 1px;
 }
 
 .-m-\[23px\] {
@@ -629,16 +589,6 @@ video {
   margin-bottom: 9px;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.mx-44 {
-  margin-left: 11rem;
-  margin-right: 11rem;
-}
-
 .-mt-\[176px\] {
   margin-top: -176px;
 }
@@ -649,18 +599,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.mt-\[330px\] {
-  margin-top: 330px;
 }
 
 .mt-\[230px\] {
@@ -705,18 +643,6 @@ video {
 
 .h-\[600px\] {
   height: 600px;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .w-7 {
@@ -840,29 +766,6 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-30 {
-  --tw-bg-opacity: 0.3;
-}
-
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.from-black {
-  --tw-gradient-from: #000 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-transparent {
-  --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -873,17 +776,12 @@ video {
   padding-right: 2.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
+}
+
+.font-nastaliq {
+  font-family: IranNastaliq, sans-serif;
 }
 
 .font-vazirmatn {
@@ -895,9 +793,14 @@ video {
   line-height: 2rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[16px\] {
@@ -910,11 +813,6 @@ video {
 
 .text-custom-sm {
   font-size: 10px;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -940,18 +838,9 @@ video {
   color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-slate-800 {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
-}
-
-.opacity-50 {
-  opacity: 0.5;
 }
 
 .transition {
@@ -964,6 +853,27 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.text-shadow-lg {
+  text-shadow: 3px 3px 6px rgb(0 0 0 / 26%), 0 0 5px rgb(15 3 86 / 22%);
+}
+
+.text-shadow-nastaliq {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@font-face {
+  font-family: "IranNastaliq";
+
+  src: url("./fonts/IranNastaliq/IranNastaliq.v2.0_YasDL.com.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Yekan";
+
+  src: url("./fonts/YekanBakh/YekanBakh-Light.ttf") format("truetype");
 }
 
 .hover\:font-extrabold:hover {
@@ -994,11 +904,6 @@ video {
     order: 3;
   }
 
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:mx-44 {
     margin-left: 11rem;
     margin-right: 11rem;
@@ -1022,15 +927,6 @@ video {
 
   .md\:w-\[75px\] {
     width: 75px;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:text-center {
