@@ -24,12 +24,6 @@ module.exports = {
         "gradient-light": "#485A75",
         "gradient-dark": "#293A51",
       },
-      width: {
-        "social-icon-width": "42px",
-      },
-      height: {
-        "social-icon-height": "42px",
-      },
     },
   },
   variants: {
