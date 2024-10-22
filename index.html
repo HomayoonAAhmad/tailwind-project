@@ -9,14 +9,16 @@
   </head>
   <body class="bg-slate-700">
     <!-- Header Section -->
-    <header class="bg-slate-800 h-44 flex justify-between items-center px-10">
+    <header
+      class="bg-slate-800 h-[84px] md:h-44 flex justify-between items-center px-5 md:px-10 gap-auto"
+    >
       <!-- Social Icons -->
-      <ul class="flex space-x-2.5">
+      <ul class="flex gap-x-2.5">
         <!-- Instagram Icon with Hover Effect -->
         <li>
           <a href="#instagram" class="group">
             <div
-              class="flex items-center justify-center w-social-icon-width h-social-icon-height rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
             >
               <i
                 class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
@@ -27,7 +29,7 @@
         <li>
           <a href="#instagram" class="group">
             <div
-              class="flex items-center justify-center w-social-icon-width h-social-icon-height rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
             >
               <i
                 class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
@@ -38,7 +40,7 @@
         <li>
           <a href="#instagram" class="group">
             <div
-              class="flex items-center justify-center w-social-icon-width h-social-icon-height rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
             >
               <i
                 class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
@@ -48,24 +50,24 @@
         </li>
       </ul>
       <!-- Logo and Title Wrapper -->
-      <div class="flex items-center space-x-3.5 md:order-2">
+      <div class="flex items-center gap-x-1.5 md:gap-x-3.5 md:order-2">
         <!-- Title Text - first image -->
         <img
           src="images/png/logo.png"
           alt="main-logo"
-          class="w-[132px] h-[28px] md:w-[200px] md:h-[43px]"
+          class="w-32 h-7 md:w-[200px] md:h-11"
         />
         <!-- Logo Image - second image -->
         <img
           src="images/png/logo-banoo1.png"
           alt="banoo-logo"
-          class="w-[49px] h-[49px] md:w-[75px] md:h-[75px]"
+          class="w-12 h-12 md:w-20 md:h-20"
         />
       </div>
 
       <!-- contact info -->
       <div
-        class="hidden md:flex flex-row-reverse items-center space-x-reverse space-x-2 md:order-3"
+        class="hidden md:flex flex-row-reverse items-center space-x-reverse gap-x-2 md:order-3"
       >
         <!-- Phone Icon -->
         <div class="hidden md:flex items-center">
@@ -81,7 +83,7 @@
           </div>
           <!-- Icon -->
           <div
-            class="w-social-icon-width h-social-icon-height rounded-full border-2 border-gray-400 flex justify-center items-center"
+            class="w-11 h-11 rounded-full border-2 border-gray-400 flex justify-center items-center"
           >
             <!-- You can add an icon here if needed -->
           </div>
@@ -90,83 +92,89 @@
     </header>
 
     <!-- navbar section -->
-    <nav dir="rtl" class="relative z-10">
-      <div
-        class="flex flex-row max-w-[1200px] h-[46px] bg-slate-100 mx-10 xl:mx-auto rounded-20 -m-[23px] overflow-x-auto md:overflow-visible whitespace-nowrap"
-      >
-        <ul class="contents">
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              صفحه نخست
-            </a>
-          </li>
-          <!-- here -->
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              خدمات مجالس
-            </a>
-          </li>
-          <!-- here -->
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              گالری مجالس
-            </a>
-          </li>
-          <!-- here -->
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              بلاگ
-            </a>
-          </li>
-          <!-- here -->
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              درباره ما
-            </a>
-          </li>
-          <!-- here -->
-          <!-- here -->
-          <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-            <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
-            <a
-              class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
-              href="#"
-            >
-              تماس با ما
-            </a>
-          </li>
-          <!-- here -->
-        </ul>
+    <!-- px-[9px] xl:px-0 mx-auto -->
+    <nav class="relative z-10 mx-[9px] md:mx-10 -mt-[3px] md:-mt-[23px]">
+      <div class="max-w-[1200px] h-[46px] bg-slate-100 rounded-20 md:mx-auto">
+        <div class="overflow-x-auto">
+          <div
+            dir="rtl"
+            class="flex flex-row gap-x-8 whitespace-nowrap overflow-x-auto px-[13px] xl:px-0"
+          >
+            <ul class="contents">
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  صفحه نخست
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  خدمات مجالس
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  گالری مجالس
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  بلاگ
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  درباره ما
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-[9px]"></div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold text-[16px] font-vazirmatn"
+                  href="#"
+                >
+                  تماس با ما
+                </a>
+              </li>
+              <!-- here -->
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
 
     <!-- Wheat image -->
-    <div class="overflow-hidden">
+    <div class="overflow-hidden md:-mt-[23px] -mt-[43px]">
       <div class="relative">
         <div class="">
           <img
@@ -197,10 +205,8 @@
         class="flex flex-col w-full h-auto bg-slate-800/40 rounded-[15px] shadow-inner p-6"
       >
         <!-- Title Section -->
-        <div
-          class="text-slate-200 text-3xl font-yekan mx-auto mt-10 text-center"
-        >
-          <h1 class="mb-4">شرح خدمات</h1>
+        <div class="text-slate-200 text-3xl mx-auto mt-10 text-center">
+          <h1 class="font-yekan tracking-wide mb-4">شرح خدمات</h1>
           <img
             class="mx-auto w-[240px] h-[24px]"
             src="images/svg/OBJECTS.svg"
@@ -294,7 +300,6 @@
     </div>
 
     <!-- new news section -->
-
     <div class="px-10 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
       <div class="md:col-span-1">
         <img
@@ -324,5 +329,8 @@
         </button>
       </div>
     </div>
+
+    <!-- photos gallery -->
+    <div></div>
   </body>
 </html>
