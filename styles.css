@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: "YekanBakh-bold";
+  src: url("./fonts/YekanBakh/YekanBakh-Bold.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Vazirmatn";
   src: url("./fonts/vazirmatn/Vazirmatn-VariableFont_wght.ttf")
     format("truetype");

@@ -6,6 +6,7 @@ module.exports = {
         vazirmatn: ["Vazirmatn", "sans-serif"],
         nastaliq: ["IranNastaliq", "sans-serif"],
         yekan: ["YekanBakh", "sans-serif"],
+        yekanBold: ["YekanBakh-bold", "sans-serif"],
       },
       fontSize: {
         "custom-lg": "16px",
