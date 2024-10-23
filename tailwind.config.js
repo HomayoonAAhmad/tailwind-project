@@ -12,11 +12,6 @@ module.exports = {
         "custom-lg": "16px",
         "custom-sm": "10px",
       },
-      borderRadius: {
-        20: "20px",
-        10: "10px",
-        15: "15px",
-      },
       boxShadow: {
         "inner-shadow": "inset 0 4px 6px rgba(0, 0, 0, 0.1)",
       },
