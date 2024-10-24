@@ -8,10 +8,7 @@ module.exports = {
         yekan: ["YekanBakh", "sans-serif"],
         yekanBold: ["YekanBakh-bold", "sans-serif"],
       },
-      fontSize: {
-        "custom-lg": "16px",
-        "custom-sm": "10px",
-      },
+
       boxShadow: {
         "inner-shadow": "inset 0 4px 6px rgba(0, 0, 0, 0.1)",
       },

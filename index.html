@@ -459,83 +459,151 @@
     </div>
 
     <!-- footer and Social Icons -->
-    <footer class="md:px-10">
-      <div class="h-screen bg-slate-800 rounded-2xl p-9 text-right">
-        <!-- Grid layout -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <!-- Access Section -->
-          <div>
-            <div class="flex items-center justify-end gap-3 mb-4">
-              <span class="text-primary-color font-yekanBold text-lg"
-                >دسترسی ها</span
-              >
-              <div
-                class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-              ></div>
-            </div>
-
-            <ul
-              class="space-y-3 text-slate-50 font-normal font-vazirmatn text-sm"
-            >
-              <li class="flex items-center justify-end gap-2">
-                <span>صفحه نخست</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-              <li class="flex items-center justify-end gap-2">
-                <span>خدمات مجالس</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-              <li class="flex items-center justify-end gap-2">
-                <span>گالری مجالس</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-              <li class="flex items-center justify-end gap-2">
-                <span>بلاگ</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-              <li class="flex items-center justify-end gap-2">
-                <span>درباره ما</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-              <li class="flex items-center justify-end gap-2">
-                <span>تماس با ما</span>
-                <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
-              </li>
-            </ul>
+    <footer class="relative">
+      <!-- cloud section -->
+      <div
+        class="absolute inset-0 flex flex-col items-center space-y-4 md:relative md:flex-row md:space-y-0 md:space-x-4"
+      >
+        <div class="relative md:px-10">
+          <div class="flex flex-row">
+            <div
+              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+            ></div>
+            <div
+              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+            ></div>
+            <div
+              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+            ></div>
           </div>
-
-          <!-- Address and Contact Sections -->
-          <div>
-            <!-- Address Section -->
-            <div class="mb-8">
-              <div class="flex items-center justify-end gap-3 mb-4">
-                <p class="text-primary-color font-yekanBold text-lg">آدرس</p>
-                <div
-                  class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-                ></div>
-              </div>
-              <p
-                class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
-              >
-                تا از نظر گرافیک نشانگر چگونگی نوع و اندازه فونت و ظاهر میتن
-                باشد . معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌ها
-              </p>
-            </div>
-
-            <!-- Contact Section -->
-            <div class="mb-8">
-              <div class="flex items-center justify-end gap-3 mb-4">
-                <span class="text-primary-color font-yekanBold text-lg"
-                  >تماس</span
+        </div>
+      </div>
+      <!-- footer section -->
+      <div class="bg-slate-800 p-9 text-right">
+        <div class="pt-14">
+          <div class="md:pr-8">
+            <!-- Grid layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <!-- Access Section -->
+              <div class="order-2 md:order-1">
+                <div class="flex items-center justify-end gap-3 mb-4">
+                  <span class="text-primary-color font-yekan font-bold text-lg"
+                    >دسترسی ها</span
+                  >
+                  <div
+                    class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+                  ></div>
+                </div>
+                <ul
+                  class="space-y-3 text-slate-50 font-normal font-vazirmatn text-sm"
                 >
-                <div
-                  class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-                ></div>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>صفحه نخست</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/services"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>خدمات مجالس</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/gallery"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>گالری مجالس</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/blog"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>بلاگ</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/about"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>درباره ما</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                  <li class="flex items-center justify-end gap-2">
+                    <a
+                      href="/contact"
+                      class="hover:text-primary-color transition-colors duration-300"
+                    >
+                      <span>تماس با ما</span>
+                    </a>
+                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                  </li>
+                </ul>
               </div>
+              <!-- Address and Contact Sections -->
+              <div class="order-1 md:order-2">
+                <!-- Address Section -->
+                <div class="mb-8">
+                  <div class="flex items-center justify-end gap-3 mb-4">
+                    <p class="text-primary-color font-yekan font-bold text-lg">
+                      آدرس
+                    </p>
+                    <div
+                      class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+                    ></div>
+                  </div>
+                  <p
+                    class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
+                  >
+                    تا از نظر گرافیک نشانگر چگونگی نوع و اندازه فونت و ظاهر میتن
+                    باشد . معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌ها
+                  </p>
+                </div>
+                <!-- Contact Section -->
+                <div class="mb-8">
+                  <div class="flex items-center justify-end gap-3 mb-4">
+                    <span
+                      class="text-primary-color font-yekan font-bold text-lg"
+                      >تماس</span
+                    >
+                    <div
+                      class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+                    ></div>
+                  </div>
+                  <div
+                    class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
+                  >
+                    0912345678
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- gilace Section -->
+          <div class="mt-24 md:mt-32 flex justify-center items-center w-full">
+            <div>
               <div
-                class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
+                class="flex flex-col items-center justify-center gap-y-[14px]"
               >
-                0912345678
+                <img
+                  class="w-60 h-6"
+                  src="/images/svg/OBJECTS.svg"
+                  alt="خط تزئینی"
+                />
+                <img class="w-80 h-7" src="images/png/Group15.png" alt="" />
               </div>
             </div>
           </div>
