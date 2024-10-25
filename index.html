@@ -50,7 +50,9 @@
         </li>
       </ul>
       <!-- Logo and Title Wrapper -->
-      <div class="flex items-center gap-x-1.5 md:gap-x-3.5 md:order-2">
+      <div
+        class="flex items-center gap-x-1.5 md:gap-x-3.5 md:order-2 overflow-hidden"
+      >
         <!-- Title Text - first image -->
         <img
           src="images/png/logo.png"
@@ -302,7 +304,7 @@
     <div class="px-10 py-20 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
       <div class="md:col-span-1">
         <img
-          src="./images/png/image-for-banoo1.png"
+          src="./images//png/gandom-pic.png"
           alt="مراسم ختم"
           class="w-full h-auto rounded-2xl object-cover"
         />
@@ -460,27 +462,56 @@
 
     <!-- footer and Social Icons -->
     <footer class="relative">
-      <!-- cloud section -->
-      <div
-        class="absolute inset-0 flex flex-col items-center space-y-4 md:relative md:flex-row md:space-y-0 md:space-x-4"
-      >
-        <div class="relative md:px-10">
-          <div class="flex flex-row">
-            <div
-              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-            ></div>
-            <div
-              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-            ></div>
-            <div
-              class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-            ></div>
+      <div dir="rtl" class="grid grid-cols-1 md:grid-cols-2 md:px-10">
+        <!-- cloud section -->
+        <div class="order-1 flex justify-start items-end">
+          <div class="mx-auto md:mx-0">
+            <div class="w-[400px] h-[268px] relative">
+              <!-- Cloud Image Background -->
+              <img class="object-cover" src="images/svg/cloud.svg" alt="" />
+              <!-- Container for the Two Images -->
+              <div
+                class="absolute bottom-0 flex items-center justify-center w-full gap-x-1.5 md:gap-x-2.5"
+              >
+                <!-- Logo Image - Second Image -->
+                <img
+                  src="images/png/logo-banoo-silver.png"
+                  alt="banoo-logo"
+                  class="w-14 h-14 md:w-20 md:h-20"
+                />
+                <!-- Title Text - First Image -->
+                <img
+                  src="images/png/logo-silver.png"
+                  alt="main-logo"
+                  class="w-[200px] h-11"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- icons section -->
+        <div class="order-2 flex justify-center md:justify-end md:items-end">
+          <div class="absolute md:relative">
+            <div class="flex my-10 md:my-0">
+              <div
+                class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+              ></div>
+              <div
+                class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+              ></div>
+              <div
+                class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
+
       <!-- footer section -->
+
       <div class="bg-slate-800 p-9 text-right">
-        <div class="pt-14">
+        <div class="mt-14 pt-14">
           <div class="md:pr-8">
             <!-- Grid layout -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
