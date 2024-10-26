@@ -4,7 +4,6 @@ module.exports = {
     extend: {
       fontFamily: {
         vazirmatn: ["Vazirmatn", "sans-serif"],
-        nastaliq: ["IranNastaliq", "sans-serif"],
         yekan: ["YekanBakh", "sans-serif"],
         yekanBold: ["YekanBakh-bold", "sans-serif"],
       },

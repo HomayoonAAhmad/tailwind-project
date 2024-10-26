@@ -6,11 +6,15 @@
     <title>Tailwind Setup</title>
 
     <link href="output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body class="bg-slate-700">
     <!-- Header Section -->
     <header
-      class="bg-slate-800 h-[84px] md:h-44 flex justify-between items-center px-5 md:px-10 gap-auto"
+      class="bg-slate-800 h-20 md:h-44 flex justify-between items-center px-5 md:px-10 gap-auto"
     >
       <!-- Social Icons -->
       <ul class="flex gap-x-2.5">
@@ -20,31 +24,38 @@
             <div
               class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
             >
-              <i
-                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
-              ></i>
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#whatsapp" class="group">
+            <div
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
             </div>
           </a>
         </li>
         <li>
-          <a href="#instagram" class="group">
+          <a href="#telegram" class="group">
             <div
               class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
             >
-              <i
-                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
-              ></i>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#instagram" class="group">
-            <div
-              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
-            >
-              <i
-                class="text-gray-400 group-hover:text-white text-2xl transition duration-300"
-              ></i>
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-telegram"></i>
+              </div>
             </div>
           </a>
         </li>
@@ -87,24 +98,33 @@
           <div
             class="w-11 h-11 rounded-full border-2 border-gray-400 flex justify-center items-center"
           >
-            <!-- You can add an icon here if needed -->
+            <div class="text-gray-400 text-lg">
+              <i class="fa-solid fa-phone"></i>
+            </div>
           </div>
         </div>
       </div>
     </header>
 
     <!-- navbar section -->
-    <nav class="relative z-10 mx-5 md:mx-10 -mt-[3px] md:-mt-[23px]">
-      <div class="max-w-[1200px] h-[46px] bg-slate-100 rounded-3xl md:mx-auto">
+    <nav class="relative z-10 mx-5 md:mx-10 -mt-1 md:-mt-6">
+      <div class="max-w-[1200px] h-12 bg-slate-100 rounded-3xl md:mx-auto">
         <div class="overflow-x-auto">
           <div
             dir="rtl"
-            class="flex flex-row gap-x-8 whitespace-nowrap overflow-x-auto px-[13px] xl:px-0"
+            class="flex flex-row gap-x-8 whitespace-nowrap overflow-x-auto px-3 xl:px-0"
           >
             <ul class="contents">
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-auto"></div>
+                <!-- icon -->
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-solid fa-house"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -115,7 +135,13 @@
               <!-- here -->
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-auto"></div>
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-hand"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -126,7 +152,13 @@
               <!-- here -->
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-auto"></div>
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-image"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -137,7 +169,13 @@
               <!-- here -->
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-xl my-[9px]"></div>
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-[9px] flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-file"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -148,7 +186,13 @@
               <!-- here -->
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-auto"></div>
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -159,7 +203,13 @@
               <!-- here -->
               <!-- here -->
               <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
-                <div class="bg-slate-500 w-7 h-7 rounded-[10px] my-auto"></div>
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn"
                   href="#"
@@ -175,25 +225,13 @@
     </nav>
 
     <!-- Wheat image -->
-    <div class="overflow-hidden md:-mt-[23px] -mt-[43px]">
+    <div class="overflow-hidden md:-mt-6 -mt-11">
       <div class="relative">
         <div class="">
           <img
             src="images/png/gandom-pic.png"
             class="w-full h-[600px] object-cover"
           />
-        </div>
-        <div
-          class="absolute inset-0 flex flex-col items-center md:items-end justify-center md:px-44"
-        >
-          <div dir="rtl">
-            <h1 class="text-slate-600 text-6xl font-nastaliq mb-2">
-              در سخت ترین لحظات
-            </h1>
-            <h2 class="text-slate-800 text-3xl font-nastaliq">
-              در کنارتان هستیم
-            </h2>
-          </div>
         </div>
       </div>
     </div>
@@ -303,20 +341,22 @@
     <!-- new news section -->
     <div class="px-10 py-20 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
       <div class="md:col-span-1">
-        <img
-          src="./images//png/gandom-pic.png"
-          alt="مراسم ختم"
-          class="w-full h-auto rounded-2xl object-cover"
-        />
+        <div class="w-full h-auto rounded-2xl overflow-hidden">
+          <img
+            src="./images/png/gandom-pic.png"
+            alt="مراسم ختم"
+            class="object-cover w-full h-auto"
+          />
+        </div>
       </div>
-      <div class="md:col-span-1 text-right mt-3">
-        <div>
-          <h2 class="text-primary-color text-2xl font-yekan mb-2">
+      <div class="md:col-span-1 text-right my-auto">
+        <div class="mb-2">
+          <h2 class="text-primary-color text-2xl font-yekan">
             مراسم ختم رئیس سازمان مالیات
           </h2>
         </div>
-        <div>
-          <p class="text-slate-200 font-yekan mb-4">
+        <div class="mb-4">
+          <p class="text-slate-200 font-yekan">
             دار فانی کالیفرنیا متاسفانه مروری اخراج از ظاهر شده بلند، عظیما
             گرفتار نیاز عصبانیت در خانه ی بعدی شنیده شده است. این مراسم در تاریخ
             ۲۳ آبان برگذار خواهد شد و حضور عموم در آن آزاد است. خانواده ی مرحوم
@@ -324,7 +364,7 @@
           </p>
         </div>
         <button
-          class="w-40 h-10 bg-primary-color text-slate-800 font-semibold font-vazirmatn px-4 py-2 rounded-[22px] hover:bg-primary-color/80 transition"
+          class="w-40 h-10 bg-primary-color text-slate-800 font-semibold font-vazirmatn px-4 py-2 rounded-3xl hover:bg-primary-color/80 transition"
         >
           مشاهده
         </button>
@@ -335,17 +375,17 @@
     <div class="mb-14 px-10" dir="rtl">
       <div class="flex items-center justify-center md:justify-start">
         <button
-          class="w-6 h-6 rounded-lg border border-primary-color mx-1 md:ml-2 md:mr-0 text-primary-color"
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
         >
           1
         </button>
         <button
-          class="w-6 h-6 rounded-lg bg-primary-color mx-1 md:ml-2 md:mr-0 text-slate-700"
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
         >
           2
         </button>
         <button
-          class="w-6 h-6 rounded-lg border border-primary-color mx-1 md:ml-2 md:mr-0 text-primary-color"
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
         >
           3
         </button>
@@ -354,93 +394,15 @@
 
     <!-- photos gallery -->
     <div class="md:px-10">
-      <div
-        class="flex flex-col w-full h-auto bg-slate-800/40 rounded-2xl shadow-inner py-11"
-      >
-        <!-- Changed to rtl direction -->
+      <div class="w-full h-auto bg-slate-800/40 rounded-2xl px-10 py-11">
         <div dir="rtl" class="grid grid-cols-1 md:grid-cols-2 gap-x-10">
           <!-- Image Grid - Right Side -->
-          <div class="mx-9">
-            <div class="flex flex-col gap-3">
-              <!-- First row - 2 images -->
-              <div class="flex gap-3">
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 1"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 2"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-
-              <!-- Middle row - 3 images -->
-              <div class="flex gap-3">
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 3"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 4"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 5"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-
-              <!-- Bottom row - 4 images -->
-              <div class="flex gap-3">
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 6"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 7"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 8"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-                <div class="md:w-28 w-20 h-20 md:h-28 rounded-lg">
-                  <img
-                    src="images/png/gandom-pic.png"
-                    alt="Event 9"
-                    class="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-            </div>
+          <div class="w-full h-auto">
+            <img class="object-cover" src="images/png/Group.png" alt="" />
           </div>
 
           <!-- Text Content - Left Side -->
-          <div class="w-full px-9 flex items-center">
+          <div class="w-full flex items-center">
             <div class="flex flex-col">
               <h2
                 class="text-3xl font-yekan mb-20 md:mb-4 mt-20 md:mt-0 text-primary-color"
@@ -491,18 +453,33 @@
         </div>
 
         <!-- icons section -->
-        <div class="order-2 flex justify-center md:justify-end md:items-end">
+        <div
+          class="order-2 flex justify-center md:justify-end md:items-end mb-2"
+        >
           <div class="absolute md:relative">
-            <div class="flex my-10 md:my-0">
-              <div
+            <div class="flex gap-x-2 my-10 md:my-0">
+              <!-- instagram -->
+              <button
                 class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-              ></div>
-              <div
+              >
+                <i
+                  class="fa-brands fa-instagram text-primary-color text-2xl"
+                ></i>
+              </button>
+              <!-- facebook -->
+              <button
                 class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-              ></div>
-              <div
+              >
+                <i
+                  class="fa-brands fa-facebook text-primary-color text-2xl"
+                ></i>
+              </button>
+              <!-- youtube -->
+              <button
                 class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-              ></div>
+              >
+                <i class="fa-brands fa-youtube text-primary-color text-2xl"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -523,7 +500,9 @@
                   >
                   <div
                     class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-                  ></div>
+                  >
+                    <i class="fa-solid fa-list text-primary-color text-3xl"></i>
+                  </div>
                 </div>
                 <ul
                   class="space-y-3 text-slate-50 font-normal font-vazirmatn text-sm"
@@ -535,7 +514,7 @@
                     >
                       <span>صفحه نخست</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                   <li class="flex items-center justify-end gap-2">
                     <a
@@ -544,7 +523,7 @@
                     >
                       <span>خدمات مجالس</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                   <li class="flex items-center justify-end gap-2">
                     <a
@@ -553,7 +532,7 @@
                     >
                       <span>گالری مجالس</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                   <li class="flex items-center justify-end gap-2">
                     <a
@@ -562,7 +541,7 @@
                     >
                       <span>بلاگ</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                   <li class="flex items-center justify-end gap-2">
                     <a
@@ -571,7 +550,7 @@
                     >
                       <span>درباره ما</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                   <li class="flex items-center justify-end gap-2">
                     <a
@@ -580,7 +559,7 @@
                     >
                       <span>تماس با ما</span>
                     </a>
-                    <div class="w-1.5 h-1.5 bg-slate-50 rounded-full"></div>
+                    <i class="fa-solid fa-chevron-left text-primary-color"></i>
                   </li>
                 </ul>
               </div>
@@ -594,7 +573,11 @@
                     </p>
                     <div
                       class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-                    ></div>
+                    >
+                      <i
+                        class="fa-solid fa-location-dot text-primary-color text-3xl"
+                      ></i>
+                    </div>
                   </div>
                   <p
                     class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
@@ -612,12 +595,21 @@
                     >
                     <div
                       class="w-14 h-14 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl flex items-center justify-center"
-                    ></div>
+                    >
+                      <i
+                        class="fa-solid fa-location-dot text-primary-color text-3xl"
+                      ></i>
+                    </div>
                   </div>
-                  <div
-                    class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
-                  >
-                    0912345678
+                  <div dir="rtl" class="flex flex-row gap-x-4">
+                    <span
+                      class="text-slate-50 text-xs font-vazirmatn font-normal leading-relaxed"
+                    >
+                      0912345678
+                    </span>
+                    <i class="fa-solid fa-phone text-primary-color"></i>
+                    <i class="fa-brands fa-whatsapp text-primary-color"></i>
+                    <i class="fa-brands fa-telegram text-primary-color"></i>
                   </div>
                 </div>
               </div>
