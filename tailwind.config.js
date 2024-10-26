@@ -16,6 +16,9 @@ module.exports = {
         "gradient-light": "#485A75",
         "gradient-dark": "#293A51",
       },
+      maxWidth: {
+        1200: "1200px", // Adds a custom max-width of 1200px
+      },
     },
   },
   variants: {
