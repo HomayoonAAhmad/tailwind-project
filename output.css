@@ -1149,6 +1149,11 @@ video {
   line-height: 1rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1285,6 +1290,11 @@ video {
 .hover\:bg-primary-color:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 173 118 / var(--tw-bg-opacity));
+}
+
+.hover\:text-base:hover {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .hover\:font-extrabold:hover {
