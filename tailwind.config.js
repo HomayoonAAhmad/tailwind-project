@@ -19,6 +19,10 @@ module.exports = {
       maxWidth: {
         1200: "1200px", // Adds a custom max-width of 1200px
       },
+      boxShadow: {
+        "inner-shadow":
+          "inset 0px 8px 16px rgba(0, 0, 0, 0.1),inset 0px 4px 8px rgba(0, 0, 0, 0.1)",
+      },
     },
   },
   variants: {

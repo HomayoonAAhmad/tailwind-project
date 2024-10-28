@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "IranNastaliq";
-  src: url("./fonts/IranNastaliq/IranNastaliq.v2.0_YasDL.com.ttf")
-    format("truetype");
-}
-
-@font-face {
   font-family: "YekanBakh";
   src: url("./fonts/YekanBakh/YekanBakh-Light.ttf") format("truetype");
 }
