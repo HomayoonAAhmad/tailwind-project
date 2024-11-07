@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Setup</title>
+
+    <link href="output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-slate-700">
+    <!-- Header Section -->
+    <header
+      class="bg-slate-800 h-20 md:h-44 flex justify-between items-center px-5 md:px-10 gap-auto"
+    >
+      <!-- Social Icons -->
+      <ul class="flex gap-x-2.5">
+        <!-- Instagram Icon with Hover Effect -->
+        <li>
+          <a href="#instagram" class="group">
+            <div
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#whatsapp" class="group">
+            <div
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#telegram" class="group">
+            <div
+              class="flex items-center justify-center w-11 h-11 rounded-full border-2 border-gray-400 group-hover:border-white transition duration-300"
+            >
+              <div
+                class="text-gray-400 group-hover:text-white transition duration-300"
+              >
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- Logo and Title Wrapper -->
+      <div
+        class="flex items-center gap-x-1.5 md:gap-x-3.5 md:order-2 overflow-hidden"
+      >
+        <!-- Title Text - first image -->
+        <img
+          src="images/png/logo.png"
+          alt="main-logo"
+          class="w-32 h-7 md:w-[200px] md:h-11"
+        />
+        <!-- Logo Image - second image -->
+        <img
+          src="images/png/logo-banoo1.png"
+          alt="banoo-logo"
+          class="w-12 h-12 md:w-20 md:h-20"
+        />
+      </div>
+
+      <!-- contact info -->
+      <div
+        class="hidden md:flex flex-row-reverse items-center space-x-reverse gap-x-2 md:order-3"
+      >
+        <!-- Phone Icon -->
+        <div class="hidden md:flex items-center">
+          <!-- Contact Information -->
+          <div class="text-right mr-2">
+            <!-- Add margin-left for spacing -->
+            <p class="text-slate-300 font-vazirmatn text-custom-lg">
+              09123456789
+            </p>
+            <p class="text-slate-300 font-vazirmatn text-custom-sm">
+              هفت روز هفته از 9 تا 21
+            </p>
+          </div>
+          <!-- Icon -->
+          <div
+            class="w-11 h-11 rounded-full border-2 border-gray-400 flex justify-center items-center"
+          >
+            <div class="text-gray-400 text-lg">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar section -->
+    <nav class="relative z-10 mx-5 md:mx-10 -mt-1 md:-mt-6">
+      <div class="max-w-1200 h-12 bg-slate-100 rounded-3xl md:mx-auto">
+        <div class="overflow-x-auto">
+          <div
+            dir="rtl"
+            class="flex flex-row gap-x-8 whitespace-nowrap overflow-x-auto px-3 xl:px-0"
+          >
+            <ul class="contents">
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <!-- icon -->
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-solid fa-house"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="index.html"
+                >
+                  صفحه نخست
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-hand"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="khadamat_majales.html"
+                >
+                  خدمات مجالس
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-image"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="#"
+                >
+                  گالری مجالس
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-[9px] flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-file"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="blog.html"
+                >
+                  بلاگ
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="#"
+                >
+                  درباره ما
+                </a>
+              </li>
+              <!-- here -->
+              <!-- here -->
+              <li class="flex items-center space-x-reverse space-x-1.5 mx-auto">
+                <div
+                  class="bg-slate-500 w-7 h-7 rounded-xl my-auto flex justify-center"
+                >
+                  <div class="flex items-center justify-center text-white">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                </div>
+                <a
+                  class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
+                  href="#"
+                >
+                  تماس با ما
+                </a>
+              </li>
+              <!-- here -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- new news section -->
+    <div class="px-10 py-20">
+      <!-- Wrapper برای تنظیم گرید و فاصله‌ها -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start max-w-[1200px] mx-auto"
+      >
+        <div class="md:col-span-1 relative inline-block">
+          <!-- Wrapper for SVG with rounded corners, positioned absolutely in the background -->
+          <svg
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 2020 910"
+            preserveAspectRatio="xMidYMid meet"
+            class="absolute inset-0 z-10"
+          >
+            <!-- Define a clipPath for rounded corners -->
+            <defs>
+              <clipPath id="iphone-clip">
+                <rect x="0" y="0" width="2020" height="910" rx="170" ry="170" />
+              </clipPath>
+            </defs>
+
+            <!-- Background of the SVG frame (black border) -->
+            <rect width="2020" height="910" rx="170" ry="170" fill="black" />
+
+            <!-- Video element clipped to the rounded corners, centered -->
+            <foreignObject
+              x="15"
+              y="15"
+              width="1990"
+              height="910"
+              clip-path="url(#iphone-clip)"
+              class="rounded-[150px] overflow-hidden"
+            >
+              <video id="video" width="100%" height="100%" muted loop>
+                <source src="/video/demovideo.mp4" type="video/mp4" />
+                مرورگر شما از ویدیو پشتیبانی نمی‌کند.
+              </video>
+            </foreignObject>
+          </svg>
+
+          <!-- Play button overlay, initially visible and with higher z-index -->
+          <div
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30"
+          >
+            <button
+              id="playButton"
+              onclick="playVideo()"
+              class="flex items-center justify-center h-10 w-10 bg-primary-color rounded-full p-6 hover:bg-primary-color/60 transition"
+            >
+              <span class="text-white text-3xl">▶️</span>
+            </button>
+          </div>
+
+          <!-- Image as a frame on top of the video and SVG, with pointer-events-none to pass clicks through -->
+          <img
+            src="/images/png/iphone.png"
+            alt="iPhone frame"
+            class="relative block w-full z-20 pointer-events-none"
+          />
+          <script>
+            function playVideo() {
+              const video = document.getElementById("video");
+              const playButton = document.getElementById("playButton");
+              video.play();
+              playButton.classList.add("hidden"); // Hide play button after click
+            }
+          </script>
+        </div>
+
+        <div class="md:col-span-1 text-right my-auto">
+          <!-- Wrapper برای عنوان -->
+          <div class="mb-2">
+            <h2 class="text-primary-color text-2xl font-yekan">
+              مراسم ختم رئیس سازمان مالیات
+            </h2>
+          </div>
+          <!-- Wrapper برای توضیحات -->
+          <div class="mb-4">
+            <p class="text-slate-200 font-yekan">
+              دار فانی کالیفرنیا متاسفانه مروری اخراج از ظاهر شده بلند، عظیما
+              گرفتار نیاز عصبانیت در خانه ی بعدی شنیده شده است. این مراسم در
+              تاریخ ۲۳ آبان برگذار خواهد شد و حضور عموم در آن آزاد است. خانواده
+              ی مرحوم از همه ی دوستان و آشنایان دعوت می کنند در این مراسم شرکت
+              کنند.
+            </p>
+          </div>
+          <!-- Wrapper برای دکمه -->
+          <div>
+            <button
+              class="w-40 h-10 bg-primary-color text-slate-800 font-semibold font-vazirmatn px-4 py-2 rounded-3xl hover:bg-primary-color/80 transition"
+            >
+              مشاهده
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- changin page buttons -->
+    <div class="mb-14 max-w-[1200px] md:px-10 mx-auto" dir="rtl">
+      <div class="flex items-center justify-center md:justify-start">
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          1
+        </button>
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          2
+        </button>
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          3
+        </button>
+      </div>
+    </div>
+    <!-- idk section -->
+    <div class="px-10 mt-14">
+      <div class="mb-14 max-w-[1200px] mx-auto" dir="rtl">
+        <div class="flex justify-start">
+          <div class="w-[453px] h-[148px] relative">
+            <img
+              class="w-[149px] h-[148px] left-[304px] top-0 absolute rounded-[15px]"
+              src="images/png/gandom-pic.png"
+            />
+            <div
+              class="w-[282px] left-0 top-[10px] absolute text-right text-[#d1ad76] text-xl font-normal font-['Vazirmatn'] leading-loose"
+            >
+              مجلس ترحیم آقا خات سیشسیشس یشمخقت ل بتتاب
+            </div>
+            <div
+              class="left-[214px] top-[94px] absolute text-right text-white text-sm font-bold font-['Vazirmatn'] leading-loose"
+            >
+              ۰۳ آبان ۱۴۰۱
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- changin page buttons -->
+    <div class="mb-14 max-w-[1200px] md:px-10 mx-auto" dir="rtl">
+      <div class="flex items-center justify-center md:justify-start">
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          1
+        </button>
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          2
+        </button>
+        <button
+          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+        >
+          3
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
