@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Setup</title>
 
+    <link rel="stylesheet" href="normalize.css" />
     <link href="output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -353,22 +354,26 @@
       </div>
     </div>
 
-    <!-- idk section -->
     <div class="mx-10 mt-32">
-      <div class="mb-14 max-w-[1200px] mx-auto" dir="rtl">
-        <div class="flex justify-start">
-          <div class="w-[453px] h-[148px] relative">
+      <div class="mb-14 max-w-1200 mx-auto" dir="rtl">
+        <div class="flex items-start">
+          <!-- Image Container -->
+          <div class="relative w-36 h-36 md:w-48 md:h-48">
             <img
-              class="w-[149px] h-[148px] left-[304px] top-0 absolute rounded-[15px]"
+              class="w-full h-full rounded-2xl"
               src="./images/png/gandom-pic.png"
+              alt="Event image"
             />
+          </div>
+          <!-- Text Container -->
+          <div class="mb-10 mx-5">
             <div
-              class="w-[282px] left-0 top-[10px] absolute text-right text-primary-color text-xl font-normal font-vazirmatn leading-loose"
+              class="text-right text-primary-color text-lg md:text-xl font-normal font-vazirmatn leading-loose"
             >
               مجلس ترحیم آقا خات سیشسیشس یشمخقت ل بتتاب
             </div>
             <div
-              class="left-[214px] top-[94px] absolute text-right text-white text-sm font-bold font-vazirmatn leading-loose"
+              class="text-right text-white text-xs md:text-sm font-bold font-vazirmatn p-2 rounded-md mt-2"
             >
               ۰۳ آبان ۱۴۰۱
             </div>
