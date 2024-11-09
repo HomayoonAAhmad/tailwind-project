@@ -73,7 +73,7 @@
         />
         <!-- Logo Image - second image -->
         <img
-          src="images/png/logo-banoo1.png"
+          src="./images/png/logo-banoo1.png"
           alt="banoo-logo"
           class="w-12 h-12 md:w-20 md:h-20"
         />
@@ -162,7 +162,7 @@
                 </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
-                  href="service.html"
+                  href="#"
                 >
                   گالری مجالس
                 </a>
@@ -225,284 +225,142 @@
       </div>
     </nav>
 
-    <!-- Wheat image -->
-    <div class="overflow-hidden md:-mt-6 -mt-11">
-      <div class="relative">
-        <div class="">
-          <img
-            src="./images/png/gandom-pic.png"
-            class="w-full h-[600px] object-cover"
-          />
+    <!-- breadcrumb -->
+    <div class="mt-12 flex max-w-1200 mx-auto justify-center md:justify-end">
+      <div
+        class="w-96 h-11 bg-slate-800 rounded-2xl flex items-center px-4 overflow-x-auto"
+        dir="rtl"
+      >
+        <!-- Home Link -->
+        <div
+          class="flex items-center text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
+        >
+          <i class="fa-solid fa-house text-primary-color"></i>
+          <a href="#" class="hover:underline">
+            <span>خانه</span>
+          </a>
+        </div>
+
+        <!-- Chevron Icon 1 -->
+        <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
+
+        <!-- Services Link -->
+        <div
+          class="flex items-center text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
+        >
+          <i class="fa-solid fa-hand text-primary-color"></i>
+          <a href="#" class="text-nowrap hover:underline">
+            <span>خدمات مجالس</span>
+          </a>
+        </div>
+
+        <!-- Chevron Icon 2 -->
+        <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
+
+        <!-- Custom Service Link -->
+        <div
+          class="flex items-center text-primary-color text-sm font-normal font-vazirmatn"
+        >
+          <a href="#" class="text-nowrap hover:underline">
+            <span>آوردن ابر بر سر مزار</span>
+          </a>
         </div>
       </div>
     </div>
 
-    <!-- sharh khadamat -->
+    <!-- Image Section -->
+    <section class="mt-6 mx-auto relative">
+      <div class="flex justify-center">
+        <div class="max-w-1200 px-5 md:px-10 lg:px-0">
+          <img class="rounded-2xl" src="./images/png/Unsplash.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="-mt-14">
+      <div>
+        <div class="mb-14 max-w-1200 mx-auto" dir="rtl">
+          <div class="px-5 flex justify-between items-end">
+            <!-- Image and Text Container aligned to the bottom on the right -->
+            <div class="flex items-end space-x-reverse space-x-5">
+              <!-- Image Container -->
+              <div class="relative w-36 h-36 md:w-48 md:h-48">
+                <div
+                  class="w-full h-full bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow"
+                ></div>
+              </div>
+
+              <!-- Text Container -->
+              <div>
+                <div
+                  class="text-right text-primary-color text-4xl font-yekan leading-loose"
+                >
+                  آوردن ابر بر سر مزار
+                </div>
+                <div
+                  class="text-right text-white text-sm font-normal font-vazirmatn p-2 rounded-md mt-2"
+                >
+                  به سادگی با چند کلیک برایتان شمع میشویم
+                  <a class="text-primary-color hover:underline" href=""
+                    >بیشتر</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Small Div at the Left End of the Container -->
+            <div class="pb-2">
+              <button
+                class="w-10 h-10 bg-slate-500 rounded-2xl flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-up-from-bracket text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section -->
     <div class="md:px-10">
       <!-- Wrapper -->
       <div class="max-w-[1200px] mx-auto">
         <!-- Wrapper  -->
         <div dir="rtl" class="flex flex-col w-full h-auto">
-          <div class="bg-slate-800/40 rounded-2xl p-6 shadow-inner-shadow">
-            <!-- Title Section -->
-            <div class="text-slate-200 text-3xl mx-auto mt-10 text-center">
-              <h1 class="font-yekan tracking-wide mb-4">شرح خدمات</h1>
-              <img
-                class="mx-auto w-60 h-6"
-                src="./images/svg/OBJECTS.svg"
-                alt="Decorative Line"
-              />
-            </div>
-            <!-- Services Grid Section -->
-            <div class="mt-12 text-center mb-24">
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-9">
-                <!-- Service Item 1 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <h1 class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </h1>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-                <!-- Service Item 2 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <p class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </p>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-                <!-- Service Item 3 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <p class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </p>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-                <!-- Service Item 4 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <p class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </p>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-                <!-- Service Item 5 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <p class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </p>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-                <!-- Service Item 6 -->
-                <div>
-                  <div
-                    class="w-24 h-24 bg-gradient-to-br from-gradient-light to-gradient-dark rounded-2xl shadow mx-auto"
-                  ></div>
-                  <p class="text-primary-color font-yekan text-xl mt-6">
-                    چاپ تصویر خدا بیاورز
-                  </p>
-                  <p class="text-slate-200 text-sm font-vazirmatn mt-2">
-                    گروه ما با سابقه کنار شما برای این مهم دست است
-                    <a href="#" class="text-primary-color text-sm">بیشتر</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- new news section -->
-    <div class="px-10 py-20">
-      <!-- Wrapper برای تنظیم گرید و فاصله‌ها -->
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start max-w-[1200px] mx-auto"
-      >
-        <div class="md:col-span-1 relative inline-block">
-          <!-- Wrapper for SVG with rounded corners, positioned absolutely in the background -->
-          <svg
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 2020 910"
-            preserveAspectRatio="xMidYMid meet"
-            class="absolute inset-0 z-10"
-          >
-            <!-- Define a clipPath for rounded corners -->
-            <defs>
-              <clipPath id="iphone-clip">
-                <rect x="0" y="0" width="2020" height="910" rx="170" ry="170" />
-              </clipPath>
-            </defs>
-
-            <!-- Background of the SVG frame (black border) -->
-            <rect width="2020" height="910" rx="170" ry="170" fill="black" />
-
-            <!-- Video element clipped to the rounded corners, centered -->
-            <foreignObject
-              x="0"
-              y="0"
-              width="1990"
-              height="915"
-              clip-path="url(#iphone-clip)"
-              class="rounded-[150px] overflow-hidden"
-            >
-              <video id="video" width="100%" height="100%">
-                <source src="./video/demo-video.mp4" type="video/mp4" />
-                مرورگر شما از ویدیو پشتیبانی نمی‌کند.
-              </video>
-            </foreignObject>
-          </svg>
-
-          <!-- Play button overlay, initially visible and with higher z-index -->
           <div
-            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30"
-          >
-            <button
-              id="playButton"
-              onclick="playVideo()"
-              class="flex items-center justify-center h-10 w-10 bg-primary-color rounded-full p-6 hover:bg-primary-color/60 transition"
-            >
-              <span class="text-white text-3xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6 fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 3l14 9-14 9V3z" />
-                </svg>
-              </span>
-            </button>
-          </div>
-
-          <!-- Image as a frame on top of the video and SVG, with pointer-events-none to pass clicks through -->
-          <img
-            src="./images/png/iphone.png"
-            alt="iPhone frame"
-            class="relative block w-full z-20 pointer-events-none"
-          />
-          <script>
-            function playVideo() {
-              const video = document.getElementById("video");
-              const playButton = document.getElementById("playButton");
-              video.play();
-              playButton.classList.add("hidden"); // Hide play button after click
-            }
-          </script>
-        </div>
-        <div class="md:col-span-1 text-right my-auto">
-          <!-- Wrapper برای عنوان -->
-          <div class="mb-2">
-            <h2 class="text-primary-color text-2xl font-yekan">
-              مراسم ختم رئیس سازمان مالیات
-            </h2>
-          </div>
-          <!-- Wrapper برای توضیحات -->
-          <div class="mb-4">
-            <p class="text-slate-200 font-yekan">
-              دار فانی کالیفرنیا متاسفانه مروری اخراج از ظاهر شده بلند، عظیما
-              گرفتار نیاز عصبانیت در خانه ی بعدی شنیده شده است. این مراسم در
-              تاریخ ۲۳ آبان برگذار خواهد شد و حضور عموم در آن آزاد است. خانواده
-              ی مرحوم از همه ی دوستان و آشنایان دعوت می کنند در این مراسم شرکت
-              کنند.
-            </p>
-          </div>
-          <!-- Wrapper برای دکمه -->
-          <div>
-            <button
-              class="w-40 h-10 bg-primary-color text-slate-800 font-semibold font-vazirmatn px-4 py-2 rounded-3xl hover:bg-primary-color/80 transition"
-            >
-              مشاهده
-            </button>
-          </div>
+            class="bg-slate-800/40 rounded-2xl p-6 shadow-inner-shadow"
+          ></div>
         </div>
       </div>
     </div>
 
-    <!-- changin page buttons -->
-    <div class="mb-14 max-w-[1200px] md:px-10 mx-auto" dir="rtl">
-      <div class="flex items-center justify-center md:justify-start">
-        <button
-          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
+    <div class="mx-10 mt-32">
+      <div class="mb-14 max-w-1200 mx-auto" dir="rtl">
+        <div
+          class="text-right text-white font-vazirmatn font-bold text-xl mb-12"
         >
-          1
-        </button>
-        <button
-          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
-        >
-          2
-        </button>
-        <button
-          class="w-6 h-6 rounded-lg hover:bg-primary-color border border-primary-color hover:border-0 mx-1 md:ml-2 md:mr-0 text-primary-color hover:text-slate-700"
-        >
-          3
-        </button>
-      </div>
-    </div>
-
-    <!-- photos gallery -->
-    <div class="md:px-10">
-      <!-- Wrapper -->
-      <div
-        class="w-full h-auto bg-slate-800/40 rounded-2xl px-10 py-11 max-w-1200 shadow-inner-shadow mx-auto"
-      >
-        <!-- Wrapper -->
-        <div dir="rtl" class="grid grid-cols-1 md:grid-cols-2 gap-x-10">
-          <!-- Image Grid - Right Side -->
-          <div class="w-full h-auto">
-            <img class="object-cover" src="./images/png/Group.png" alt="" />
+          نمونه مجالسی که این خدمت در آنها اجرا شده
+        </div>
+        <div class="flex items-start">
+          <!-- Image Container -->
+          <div class="relative w-36 h-36 md:w-48 md:h-48">
+            <img
+              class="w-full h-full rounded-2xl"
+              src="./images/png/gandom-pic.png"
+              alt="Event image"
+            />
           </div>
-
-          <!-- Text Content - Left Side -->
-          <div class="w-full flex items-center">
-            <div class="flex flex-col">
-              <!-- عنوان -->
-              <div class="mb-20 md:mb-4 mt-20 md:mt-0">
-                <h2 class="text-3xl font-yekan text-primary-color">
-                  برگزاری بیش از ۲۳۵ مراسم موفق در سال گذشته
-                </h2>
-              </div>
-              <!-- توضیحات -->
-              <div>
-                <p
-                  class="text-slate-300 font-vazirmatn text-sm leading-relaxed"
-                >
-                  با نظر گرافیکی نمایندگی چگونگی نوع و اندازه فونت و ظاهر
-                  می‌باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های
-                  آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار
-                  خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن
-                  در آن قرار گیرد چگونه به نظر می‌رسد.
-                </p>
-              </div>
+          <!-- Text Container -->
+          <div class="mb-10 mx-5">
+            <div
+              class="text-right text-primary-color text-lg md:text-xl font-normal font-vazirmatn leading-loose"
+            >
+              مجلس ترحیم آقا خات سیشسیشس یشمخقت ل بتتاب
+            </div>
+            <div
+              class="text-right text-white text-xs md:text-sm font-bold font-vazirmatn p-2 rounded-md mt-2"
+            >
+              ۰۳ آبان ۱۴۰۱
             </div>
           </div>
         </div>
