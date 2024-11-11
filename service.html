@@ -162,7 +162,7 @@
                 </div>
                 <a
                   class="text-slate-600 hover:text-slate-800 font-medium hover:font-extrabold font-vazirmatn text-base"
-                  href="#"
+                  href="service.html"
                 >
                   گالری مجالس
                 </a>
@@ -225,54 +225,58 @@
       </div>
     </nav>
 
-    <!-- breadcrumb -->
-    <div class="mt-12 flex max-w-1200 mx-auto justify-center md:justify-end">
-      <div
-        class="w-96 h-11 bg-slate-800 rounded-2xl flex items-center px-4 overflow-x-auto"
-        dir="rtl"
-      >
-        <!-- Home Link -->
-        <div
-          class="flex items-center text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
-        >
-          <i class="fa-solid fa-house text-primary-color"></i>
-          <a href="#" class="hover:underline">
-            <span>خانه</span>
-          </a>
-        </div>
+    <!-- breadcrumb nav -->
+    <nav class="md:mt-12 mt-6 mx-5 md:mx-10" dir="rtl">
+      <div class="max-w-1200 flex justify-start mx-auto">
+        <div class="w-96 h-11 bg-slate-800 rounded-2xl flex items-center">
+          <div class="flex items-center justify-center pr-4">
+            <ul class="contents">
+              <!-- Home Link -->
+              <li
+                class="text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
+              >
+                <i class="fa-solid fa-house text-primary-color"></i>
+                <a href="#" class="hover:underline">
+                  <span>خانه</span>
+                </a>
+              </li>
+              <!-- Chevron Icon 1 -->
+              <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
 
-        <!-- Chevron Icon 1 -->
-        <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
+              <!-- Services Link -->
+              <li
+                class="text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
+              >
+                <i class="fa-solid fa-hand text-primary-color"></i>
+                <a href="#" class="text-nowrap hover:underline">
+                  <span>خدمات مجالس</span>
+                </a>
+              </li>
 
-        <!-- Services Link -->
-        <div
-          class="flex items-center text-slate-200 text-sm font-normal font-vazirmatn space-x-2 space-x-reverse"
-        >
-          <i class="fa-solid fa-hand text-primary-color"></i>
-          <a href="#" class="text-nowrap hover:underline">
-            <span>خدمات مجالس</span>
-          </a>
-        </div>
+              <!-- Chevron Icon 2 -->
+              <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
 
-        <!-- Chevron Icon 2 -->
-        <i class="fa-solid fa-chevron-left text-white text-xs mx-2"></i>
-
-        <!-- Custom Service Link -->
-        <div
-          class="flex items-center text-primary-color text-sm font-normal font-vazirmatn"
-        >
-          <a href="#" class="text-nowrap hover:underline">
-            <span>آوردن ابر بر سر مزار</span>
-          </a>
+              <!-- Custom Service Link -->
+              <li class="text-primary-color text-sm font-normal font-vazirmatn">
+                <a href="#" class="text-nowrap hover:underline">
+                  <span>آوردن ابر بر سر مزار</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- Image Section -->
     <section class="mt-6 mx-auto relative">
       <div class="flex justify-center">
         <div class="max-w-1200 px-5 md:px-10 lg:px-0">
-          <img class="rounded-2xl" src="./images/png/Unsplash.png" alt="" />
+          <img
+            class="w-full h-full rounded-2xl"
+            src="./images/png/Unsplash.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -294,7 +298,7 @@
               <!-- Text Container -->
               <div>
                 <div
-                  class="text-right text-primary-color text-4xl font-yekan leading-loose"
+                  class="text-right text-primary-color text-4xl text-nowrap font-yekan leading-loose"
                 >
                   آوردن ابر بر سر مزار
                 </div>
@@ -321,44 +325,84 @@
       </div>
     </section>
 
-    <!-- hero section -->
-    <div class="md:px-10">
+    <!-- text -->
+    <section class="md:px-10">
       <!-- Wrapper -->
       <div class="max-w-[1200px] mx-auto">
         <!-- Wrapper  -->
         <div dir="rtl" class="flex flex-col w-full h-auto">
-          <div
-            class="bg-slate-800/40 rounded-2xl p-6 shadow-inner-shadow"
-          ></div>
+          <div class="bg-slate-800/40 rounded-2xl p-6 shadow-inner-shadow">
+            <div class="mt-10">
+              <h1
+                class="font-vazirmatn font-bold text-slate-50 text-2xl text-right"
+              >
+                لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی
+                و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </h1>
+              <p
+                class="font-vazirmatn font-normal text-slate-50 text-base leading-8 text-right"
+              >
+                طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن
+                صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و
+                ظاهر متن باشد.
+              </p>
+            </div>
+
+            <!-- Responsive Image Container -->
+            <div
+              class="w-full sm:w-[300px] md:w-[400px] lg:w-[500px] rounded-2xl mt-14 mb-10"
+            >
+              <img
+                src="./images/png/flower.png"
+                class="w-full h-auto object-cover rounded-xl"
+                alt=""
+              />
+            </div>
+
+            <div class="mb-14">
+              <p
+                class="font-vazirmatn font-normal text-slate-50 text-base leading-8 text-right"
+              >
+                در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها
+                چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده
+                متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال
+                کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از
+                محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله
+                طراحی و صفحه‌بندی را به پایان برند.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="mx-10 mt-32">
+    <div class="px-10 mt-32">
       <div class="mb-14 max-w-1200 mx-auto" dir="rtl">
         <div
           class="text-right text-white font-vazirmatn font-bold text-xl mb-12"
         >
           نمونه مجالسی که این خدمت در آنها اجرا شده
         </div>
-        <div class="flex items-start">
+        <div class="grid grid-cols-[auto,1fr] gap-4 items-start">
           <!-- Image Container -->
-          <div class="relative w-36 h-36 md:w-48 md:h-48">
+          <div class="w-36 h-36 md:w-48 md:h-48">
             <img
               class="w-full h-full rounded-2xl"
               src="./images/png/gandom-pic.png"
               alt="Event image"
             />
           </div>
+
           <!-- Text Container -->
-          <div class="mb-10 mx-5">
+          <div class="mb-10">
             <div
-              class="text-right text-primary-color text-lg md:text-xl font-normal font-vazirmatn leading-loose"
+              class="text-right text-primary-color text-sm sm:text-base md:text-lg font-normal font-vazirmatn leading-loose"
             >
               مجلس ترحیم آقا خات سیشسیشس یشمخقت ل بتتاب
             </div>
             <div
-              class="text-right text-white text-xs md:text-sm font-bold font-vazirmatn p-2 rounded-md mt-2"
+              class="text-right text-white text-xs sm:text-sm md:text-base font-bold font-vazirmatn p-2 rounded-md mt-2"
             >
               ۰۳ آبان ۱۴۰۱
             </div>
